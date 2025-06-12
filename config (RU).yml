@@ -1,0 +1,35 @@
+# Основные настройки плагина
+settings:
+  # Включение/выключение открытия шалкера по правому клику в руке
+  enableHandRightClick: true
+
+  # Включение/выключение открытия шалкера по правому клику в инвентаре
+  enableInventoryRightClick: true
+
+  # Включение/выключение автоподбора предметов в шалкеры
+  enableAutoPickup: true
+
+  # Название инвентаря шалкера при открытии
+  shulkerInventoryTitle: "&6Содержимое шалкера"
+
+# Список разрешённых предметов для автоподбора (используйте названия материалов из org.bukkit.Material)
+allowedItems:
+  - DIAMOND
+  - IRON_INGOT
+  - GOLD_INGOT
+
+# Сообщения плагина (поддерживают HEX цвета формата &#RRGGBB)
+messages:
+  prefix: "&f[&6✦&f] "
+  noPermission: "&6➤ &cНедостаточно прав для данной команды"
+  playerOnly: "&6➤ &cКоманда доступна только игрокам"
+  unknownCommand: "&6➤ &fНеизвестная команда. Используйте: &6/quickshulker reload | autoup | autoopen"
+  usageInfo: "&6➤ &fИспользование: &6/quickshulker reload | autoup | autoopen"
+
+  configReloaded: "&6➤ &fКонфигурация успешно перезагружена"
+  autoPickupEnabled: "&6➤ &fАвто-поднятие вещей &fвключено"
+  autoPickupDisabled: "&6➤ &fАвто-поднятие вещей &fвыключено"
+  autoOpenEnabled: "&6➤ &fОткрытие шалкера ПКМ &fвключено"
+  autoOpenDisabled: "&6➤ &fОткрытие шалкера ПКМ &fвыключено"
+
+  inCombat: "&6➤ &fНедоступно во время боя!"
