@@ -1,0 +1,35 @@
+# Main plugin settings
+settings:
+  # Enable/disable opening shulker box with right-click in hand
+  enableHandRightClick: true
+
+  # Enable/disable opening shulker box with right-click in inventory
+  enableInventoryRightClick: true
+
+  # Enable/disable auto-pickup of items into shulker boxes
+  enableAutoPickup: true
+
+  # Shulker box inventory title when opened
+  shulkerInventoryTitle: "&0Shulker Contents"
+
+# List of allowed items for auto-pickup (use material names from org.bukkit.Material)
+allowedItems:
+  - DIAMOND
+  - IRON_INGOT
+  - GOLD_INGOT
+
+# Plugin messages (supports HEX colors in &#RRGGBB format)
+messages:
+  prefix: "&f[&6✦&f] "
+  noPermission: "&6➤ &cInsufficient permissions for this command"
+  playerOnly: "&6➤ &cThis command is only available to players"
+  unknownCommand: "&6➤ &fUnknown command. Use: &6/quickshulker reload | autoup | autoopen"
+  usageInfo: "&6➤ &fUsage: &6/quickshulker reload | autoup | autoopen"
+
+  configReloaded: "&6➤ &fConfiguration successfully reloaded"
+  autoPickupEnabled: "&6➤ &fAuto-pickup is now &fenabled"
+  autoPickupDisabled: "&6➤ &fAuto-pickup is now &fdisabled"
+  autoOpenEnabled: "&6➤ &fRight-click shulker opening is now &fenabled"
+  autoOpenDisabled: "&6➤ &fRight-click shulker opening is now &fdisabled"
+
+  inCombat: "&6➤ &fUnavailable during combat!"

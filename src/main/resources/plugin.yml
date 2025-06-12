@@ -1,0 +1,14 @@
+name: QuickShulker
+version: '${project.version}'
+main: org.tahoma.quickshulkers.QuickShulker
+api-version: '1.16'
+author: Tahoma34
+softdepend: [CombatLogX]
+
+commands:
+  quickshulker:
+    description: Основная команда плагина QuickShulker
+    aliases: [qs,qshulker]
+    usage: /<command> <reload|autoup|autoopen>
+    permission: quickshulker.use
+    permission-message: У вас нет прав для использования данной команды.
