@@ -7,8 +7,8 @@ softdepend: [CombatLogX]
 
 commands:
   quickshulker:
-    description: Основная команда плагина QuickShulker
+    description: Main commands QuickShulker
     aliases: [qs,qshulker]
     usage: /<command> <reload|autoup|autoopen>
     permission: quickshulker.use
-    permission-message: У вас нет прав для использования данной команды.
+    permission-message: You dont have permission.
