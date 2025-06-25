@@ -18,6 +18,10 @@ allowedItems:
   - IRON_INGOT
   - GOLD_INGOT
 
+blacklistedWorlds:
+  - world_nether
+  - world_the_end
+
 # Сообщения плагина (поддерживают HEX цвета формата &#RRGGBB)
 messages:
   prefix: "&f[&6✦&f] "
@@ -33,3 +37,4 @@ messages:
   autoOpenDisabled: "&6➤ &fОткрытие шалкера ПКМ &fвыключено"
 
   inCombat: "&6➤ &fНедоступно во время боя!"
+  worldBlacklisted: "&6➤ &fЭта функция отключена в этом мире."
