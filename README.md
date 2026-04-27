@@ -49,8 +49,8 @@ Everything is managed in `config.yml`:
 
 ## 🧩 Compatibility
 
-- ✅ Minecraft `1.13+`
-- ☕ Java `8+` (built with Java 17)
+- ✅ Minecraft `1.16+`
+- ☕ Java `16+` (built with Java 17)
 - 🛠️ Supports **Paper**, **Spigot**, **Purpur**
 
 ---
